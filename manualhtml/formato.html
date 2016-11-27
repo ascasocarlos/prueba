@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Manual HTML</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="animate.css">
+		<link rel="stylesheet" href="normalize.css">
+		<meta charset="UTF-8">
+		<meta name="Carlos Ascaso Gómez" content="formato html">
+		
+	</head>
+	<body>
+		<h1 class="animated bounce">Manual HTML</h1>
+		<ul class="nav">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="que.html">¿Que es HTML?</a></li>
+			<li><a href="formato.html">Formato</a></li>
+			<li><a href="etiquetas.html">Etiquetas Basicas</a></li>
+			<li><a href="editores.html">Editores</a></li>
+			<li><a href="servidores.html">Servidores Sencillos</a></li>
+		</ul>
+		<h2 class="animated zoomIn">Formato</h2>
+		<div class="main">
+			<p>El formato del HTML esta compuesto por etiquetas formadas por los simbolos de mayor y menor que con el elemento entre dichos simbolos: <i>&ltelemento&gt </i></p>
+			<p>Una vez abierta una etiqueta hay que cerrarla volviendo a escribir la etiqueta con una barra despues del simbolo menor que: <i>&lt/elemento&gt </i> </p>
+			<p>Las etiquetas pueden tener atributos que modifiquen sus caracteristas, para escribirlos hay que usar el siguiente formato: <i>&ltelemento atributo="valor"&gt&lt/elemento&gt </i></p>
+			<p>Todas las paginas HTML tienen que tener la misma estructura compuesta por etiquetas que indican sus partes. La estructura es la siguiente:</p>
+			<pre>
+	<i>&lt!doctype html&gt </i>				Tipo de documento
+	<i>&lthtml lang="es"&gt	</i>			Inicio y lenguaje
+		<i>&lthead&gt </i>					Cabecera
+			<i>&lttitle&gt&lt/title&gt </i>		Titulo
+			<i>&ltmeta&gt </i>				Metadatos (codificacion, autor, etc...)
+		<i>&lt/head&gt </i>
+		<i>&ltbody&gt </i>					Cuerpo
+		<i>&lt/body&gt </i>
+	<i>&lt/html&gt </i>					Fin
+			</pre>
+			<p>En una pagina como puedes ver hay diferentes secciones como la cabecera y el cuerpo, tambien existen secciones que se pueden añadir a la pagina pero que no son obligatorias. Podriamos añadir las siguientes(todas ellas llevan etiqueta de cierre):</p>
+			<p>Navegacion(menu): <i>&ltnav&gt</i> </p>
+			<p>Pie de pagina: <i>&ltfooter&gt</i> </p>
+			<p>Articulos: <i>&ltarticle&gt</i> </p>
+			<p>Secciones: <i>&ltsection&gt</i> </p>
+			<p>Esta ultima se puede utilizar introduciendola dentro de <i>&ltarticle&gt</i> y a la vez introducir <i>&ltarticle&gt</i> dentro de <i>&ltsection&gt</i></p>
+		</div>
+		<div class="footer">
+			<p>Informacion obtenida de <a href="http://www.w3schools.com/html/" target="_blank">w3schools.com</a> y de <a href="http://librosweb.es/" target="_blank">Libros Web.es</a></p>
+			<p>Carlos Ascaso Gómez.2016.</p>
+		</div>
+	</body>
+</html>
